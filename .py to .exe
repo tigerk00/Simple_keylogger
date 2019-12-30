@@ -1,0 +1,7 @@
+If you want to convert your file from .py to .exe , you can use pyinstaller
+For example , to convert this program you have to print the next text in your cmd:
+pyinstaller -w -F -i THE_PATH_TO_THE_IMAGE pylogger.py
+-w - to hide cmd  when your program is on
+-F - to take all files and libraries you need into one .exe file
+-i THE_PATH_TO_THE_IMAGE - need to change the standart image of pyinstaller .exe file
+pylogger.py(you may have another name of your program) - the code , that will be basis of your .exe file
